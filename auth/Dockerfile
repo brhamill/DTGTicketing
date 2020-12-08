@@ -3,7 +3,7 @@ ENV CI=true
 
 WORKDIR /app
 COPY package.json .
-RUN yarn
+RUN npm install --only=prod
 COPY . .
 
-CMD ["yarn", "start"]
+CMD ["npm", "start"]
