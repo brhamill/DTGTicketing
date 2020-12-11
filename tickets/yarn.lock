@@ -279,10 +279,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dtgtickets/common@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@dtgtickets/common/-/common-1.0.2.tgz#da8e76f4e53aaa16f7c2e5eb18b876ab147ff5b6"
-  integrity sha512-El4SiwU6EAe6rXwY4U6QwWg++gZmI89Gpu+JNdpbw83iXek+cCi2d2F/C+d7JIEFY0rYrE2NbrmnxYGZ1+Lrfw==
+"@dtgtickets/common@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@dtgtickets/common/-/common-1.0.5.tgz#41813bfd0fbf577e2ee8ecfe4738b42bf0a9e9ec"
+  integrity sha512-NllhtBGt78LP2M6jVozFLhdWOsrqmm9NBg/PKd9TLiwiPiwEo1qKOWzP86kva7qWbHuAQw6q00lug+r5n3Tckg==
   dependencies:
     "@types/cookie-session" "^2.0.42"
     "@types/express" "^4.17.9"
@@ -4991,10 +4991,15 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-validator@^13.1.1, validator@^13.5.1:
+validator@^13.1.1:
   version "13.5.1"
   resolved "https://registry.yarnpkg.com/validator/-/validator-13.5.1.tgz#3926dfdd07a7e7325ab657fe46f2143eac55f076"
   integrity sha512-s+7LW1Xi0OzPNfGN7Hb2vk0YB/epp9KFHHGC5JtqZOE1dUkN4ULPFZAQ1inCu7ceAsWmOJu6sn9cnwm3R+ghWQ==
+
+validator@^13.5.1:
+  version "13.5.2"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.5.2.tgz#c97ae63ed4224999fb6f42c91eaca9567fe69a46"
+  integrity sha512-mD45p0rvHVBlY2Zuy3F3ESIe1h5X58GPfAtslBjY7EtTqGquZTj+VX/J4RnHWN8FKq0C9WRVt1oWAcytWRuYLQ==
 
 vary@~1.1.2:
   version "1.1.2"
