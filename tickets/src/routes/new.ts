@@ -19,20 +19,20 @@ router.post(
   ],
   validateRequest,
   async (req: Request, res: Response) => {
-    const { title, price } = req.body
-
     const ticket = Ticket.build({
-      title,
-      price,
+      title: req.body.title,
+      price: req.body.price,
       userId: req.currentUser!.id,
     })
     await ticket.save()
 
+    const { id, title, price, userId } = ticket
+
     await new TicketCreatedPublisher(natsWrapper.client).publish({
-      id: ticket.id,
-      title: ticket.title,
-      price: ticket.price,
-      userId: ticket.userId,
+      id,
+      title,
+      price,
+      userId,
     })
 
     res.status(201).send(ticket)
