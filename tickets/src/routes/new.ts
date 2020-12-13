@@ -26,13 +26,14 @@ router.post(
     })
     await ticket.save()
 
-    const { id, title, price, userId } = ticket
+    const { id, title, price, userId, version } = ticket
 
     await new TicketCreatedPublisher(natsWrapper.client).publish({
       id,
       title,
       price,
       userId,
+      version,
     })
 
     res.status(201).send(ticket)
