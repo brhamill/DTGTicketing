@@ -279,10 +279,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dtgtickets/common@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@dtgtickets/common/-/common-1.0.8.tgz#d4c487dc221d3120aa0d6953c9532ff2bfb1f870"
-  integrity sha512-IFBJzE1YoXWvYBv9kebY9/tzjF3CtIOqGnzgLvAAMZ3skXfvYA3S7Wgu1ERvwKGYsi8TQ37coIGoX3YeN7hLpA==
+"@dtgtickets/common@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@dtgtickets/common/-/common-1.0.9.tgz#04df4ea93832bbfe4bf9a2f4cf6f6e4955a8e7b1"
+  integrity sha512-HqdCm0YV8MzRdOocj+IGHpuL+PULhdMOdExhlvmg/poUl45ckfiTG0kWoWblWkaEvhzQ8VyVTCTQMT4kgNolug==
   dependencies:
     "@types/cookie-session" "^2.0.42"
     "@types/express" "^4.17.9"
