@@ -3,6 +3,8 @@ import mongoose from 'mongoose'
 import { OrderStatus } from '@dtgtickets/common'
 import { TicketDoc } from './ticket'
 
+export { OrderStatus }
+
 interface OrderAttrs {
   userId: string
   status: OrderStatus
